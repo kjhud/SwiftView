@@ -19,7 +19,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBOutlet weak var lblMessage: UILabel!
 
+    @IBAction func btnDontPressMe(sender: UIButton) {
+        lblMessage.text = "Hi Reid :)"
+    }
 
 }
 
