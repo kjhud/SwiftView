@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var lblMessage: UILabel!
 
     @IBAction func btnDontPressMe(sender: UIButton) {
-        lblMessage.text = "Hi Reid :)"
+        lblMessage.text = "Hi Reid, I <3 You :)"
     }
 
 }
